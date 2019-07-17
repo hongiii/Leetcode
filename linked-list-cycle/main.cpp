@@ -11,6 +11,7 @@ using namespace std;
  *     ListNode(int x) : val(x), next(NULL) {}
  * };
  */
+//方法1
 class Solution {
 public:
     bool hasCycle(ListNode *head) {
@@ -35,6 +36,24 @@ public:
         return false;
     }
 };
+
+//方法2
+/*
+class Solution {
+public:
+    bool hasCycle(ListNode *head) {
+       unordered_map<ListNode*, bool> m;
+        while(head)
+        {
+            if(m.find(head) != m.end())
+                return true;
+            m[head] = true;
+            head = head -> next;
+        }
+        return false;
+    }
+};
+*/
 
 int main()
 {
