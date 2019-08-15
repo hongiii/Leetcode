@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1565696934 source:c:\users\wly1984\desktop\leetcode\majority-element\main.cpp
+	<iostream>
+	<cstdio>
+	<cstdlib>
+	<cstring>
+	<cmath>
+	<algorithm>
+	<vector>
+
