@@ -1,1 +1,1 @@
-Leetcode Practice on NowCoder.
+Leetcode Practice.
